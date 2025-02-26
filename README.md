@@ -1,3 +1,5 @@
+## `library.localhost:8000`
+
 ### Create new app
 ```
 bench new-app library_management

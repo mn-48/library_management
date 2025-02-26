@@ -6,3 +6,15 @@ Usage: bench  backup [OPTIONS]
 Try 'bench  backup --help' for help.
 
 Error: Please specify --site sitename
+set -o pipefail; /usr/bin/mariadb-dump --user=_ea14aa6a7c7166f8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ea14aa6a7c7166f8 | /usr/bin/gzip >> ./library.localhost/private/backups/20250224_000002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-02-24 00:00:03.639817
+Config  : /home/nazmul/Desktop/softife/sites/library.localhost/private/backups/20250224_000002-library_localhost-site_config_backup.json 127.0B
+Database: /home/nazmul/Desktop/softife/sites/library.localhost/private/backups/20250224_000002-library_localhost-database.sql.gz 242.0KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ea14aa6a7c7166f8 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ea14aa6a7c7166f8 | /usr/bin/gzip >> ./library.localhost/private/backups/20250226_000002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-02-26 00:00:03.861030
+Config  : /home/nazmul/Desktop/softife/sites/library.localhost/private/backups/20250226_000002-library_localhost-site_config_backup.json 127.0B
+Database: /home/nazmul/Desktop/softife/sites/library.localhost/private/backups/20250226_000002-library_localhost-database.sql.gz 259.1KiB
+Backup for Site library.localhost has been successfully completed
