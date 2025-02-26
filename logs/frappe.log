@@ -109,3 +109,69 @@ Form Dict: {'doctype': 'Library Transaction', 'name': '', 'cmd': 'frappe.realtim
 2025-02-26 23:49:18,599 ERROR frappe New Exception collected in error log
 Site: library.localhost
 Form Dict: {'doctype': 'Library Transaction', 'name': 'new-library-transaction-tiwmylmosc', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-26 23:52:32,573 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:09:07,442 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:22:15,581 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:22:39,940 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:26:47,799 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:27:19,048 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:27:35,550 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:27:43,300 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:27:49,398 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:30:36,458 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:30:40,901 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:30:53,692 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:30:58,624 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:31:00,660 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:31:08,406 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:32:45,239 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:33:06,638 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:33:11,158 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'name': 'library-settings', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-02-27 00:46:24,107 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:46:30,930 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:46:46,160 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Member', 'name': '', 'cmd': 'frappe.realtime.has_permission'}
+2025-02-27 00:51:21,095 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'name': '', 'cmd': 'frappe.realtime.has_permission'}

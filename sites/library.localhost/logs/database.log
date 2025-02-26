@@ -2815,3 +2815,27 @@ ALTER TABLE `tabLibrary Transaction` ADD COLUMN `article` varchar(140), ADD COLU
 ALTER TABLE `tabArticle` ADD COLUMN `article_name` varchar(140)
 2025-02-26 23:42:10,684 WARNING database DDL Query made to DB:
 alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-02-27 00:22:25,123 WARNING database DDL Query made to DB:
+create table `tabLibrary Settings` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-02-27 00:24:11,125 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Settings` ADD COLUMN `loan_period` int NOT NULL DEFAULT 0, ADD COLUMN `maximum_number_of_issued_articles` int NOT NULL DEFAULT 0
+2025-02-27 00:29:48,270 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Settings` ADD COLUMN `max_articles` int NOT NULL DEFAULT 0
+2025-02-27 00:29:48,280 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Settings` MODIFY `loan_period` int NOT NULL DEFAULT 0

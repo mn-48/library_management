@@ -64,3 +64,7 @@
 2025-02-26 23:45:33,480 WARNING restart failed: Couldn't find supervisorctl in PATH
 2025-02-26 23:45:43,561 INFO /home/nazmul/.local/bin/bench start
 2025-02-26 23:46:08,504 INFO /home/nazmul/.local/bin/bench start
+2025-02-26 23:57:14,565 INFO /home/nazmul/.local/bin/bench --site library.localhost backup
+2025-02-27 00:00:01,818 INFO /home/nazmul/.local/bin/bench --verbose --site all backup
+2025-02-27 00:27:31,643 INFO /home/nazmul/.local/bin/bench start
+2025-02-27 00:33:19,111 INFO /home/nazmul/.local/bin/bench start
